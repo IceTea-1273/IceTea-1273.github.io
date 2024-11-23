@@ -6,73 +6,96 @@
 	<title>Portfolio</title> 
 	<meta name="author" content="Aiste Makutenaite"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-	<link rel="stylesheet" href= > 
+	<link rel="stylesheet" href= "style.css"> 
 </head> 
  
 <body> 
-    <h1>Aistė Makutėnaitė</h1> 
-    <p>I am a programmer</p> 
-    <img src="pictures\computer.jpg", width = "500"> 
-    
-    <h2>About</h2> 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, nostrum reprehenderit earum cupiditate molestiae atque repudiandae tempore tempora nesciunt qui eveniet ut corrupti explicabo voluptates natus perspiciatis minus voluptatum obcaecati.</p> 
-    <h4>HTML, CSS, Javascript developer</h4> 
-    <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ipsum, tenetur animi possimus quaerat dolorum adipisci repudiandae modi deleniti esse voluptates eveniet quis laudantium? Facilis aliquam rem vero expedita ratione.</i></p> 
-    <img src="pictures\profile_picture.jpg", width = "300"> 
-    <p><b>Birthday: </b>May 30 2004</p> 
-    <p><b>Website: </b><a href = "https://vilniustech.lt/">www.exapmle.com</a></p> 
-    <p><b>Phone: </b>+37069138156</p> 
-    <p><b>City: </b>Vilnius, Lithuania</p> 
-    <p><b>Age: </b>20</p> 
-    <p><b>Degree: </b>Candidate: Bachelor</p> 
-    <p><b>Email:</b>a.makutenaite@gmail.com</p> 
-    <p><b>Freelance: </b>Available</p> 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis nostrum laudantium ipsam excepturi odit ratione  
-        vel possimus quasi quidem, minima facere incidunt saepe quaerat, facilis, rem sit inventore cupiditate corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, hic ducimus, porro maiores repudiandae, odit distinctio excepturi laborum est explicabo ipsum sunt! Eligendi nulla consectetur commodi,  
-        aliquam laudantium voluptate exercitationem? 
-    </p> 
-    
-    <h2>Resume</h2> 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, totam cumque! Delectus, quod. Nesciunt tempora aspernatur qui quidem cupiditate aliquid commodi quo quaerat harum iusto mollitia, dolore deserunt, rerum eaque!</p> 
-    
-    <h4>Summary</h4> 
-    <p>AISTE MAKUTENAITE</p> 
-    <p>Student, software developer, web developer ...</p> 
-    <ul> 
-        <li>Vilnius, Lithuania</li> 
-        <li>Phone: +37069138156</li> 
-        <li>Email: a.makutenaite@gmail.com</li> 
-    </ul> 
-    
-    <h4>Education</h4> 
-    <p>HIGH SCHOOL</p> 
-    <p>2019-2023</p> 
-    <p><i>Vilniaus Antakalnio Gimnazija</i></p> 
-    <br> 
-    <p>BACHELOR IN INFOMATICS ENGINEERING</p> 
-    <p>2023-2027</p> 
-    <p><i>Vilniaus Gedimino Technologijos Universitetas</i></p> 
-    <br> 
-    <p>PROFESIONAL EXPERIENCE</p> 
-    <p>None yet</p> 
-    
-    
-    <h2>Portfolio</h2> 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis nesciunt dicta fugit ratione atque iure enim, quaerat amet suscipit neque doloribus et sequi itaque quas soluta expedita laudantium laboriosam.</p> 
-    <img src="pictures/job1.jpg" height = "300"> 
-    <img src="pictures/job2.jpg" height = "300"> 
-    <img src="pictures/job3.jpg" height = "300"> 
-    
-    <h2>Services</h2> 
-    <video height = "300" controls autoplay> 
-        <source src="media/cat_video.mp4" type="video/mp4"> 
-    </video> 
-    <iframe width="560" height="300" src="https://www.youtube.com/embed/ZHgyQGoeaB0?si=aXJy9Rj88kRtsL3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
-    <audio controls> 
-        <source src="media/meow_audio.mp3" type="audio/mpeg"> 
-    </audio> 
-    
- 
+        <section id = "first_section">
+            <h1>Aistė Makutėnaitė</h1> 
+            <p>I am a programmer</p> 
+        </section>
+        <section id = "container">
+        <section id = "about_section">
+            <div id = "about_header">
+                <h2>About</h2> 
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, nostrum reprehenderit earum cupiditate molestiae atque repudiandae tempore tempora nesciunt qui eveniet ut corrupti explicabo voluptates natus perspiciatis minus voluptatum obcaecati.</p> 
+            </div>
+            <div class="clearfix">
+                <img src="pictures\profile_picture.jpg", width = "300", class="profile_picture">
+                <h4>HTML, CSS, Javascript developer</h4> 
+                <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ipsum, tenetur animi possimus quaerat dolorum adipisci repudiandae modi deleniti esse voluptates eveniet quis laudantium? Facilis aliquam rem vero expedita ratione.</i></p>  
+                <div class = "about_row">
+                    <div class = "about_column">
+                        <ul>
+                            <li><b>Birthday: </b>May 30 2004</li>
+                            <li><b>Website: </b><a href = "https://vilniustech.lt/">www.exapmle.com</a></li>
+                            <li><b>Phone: </b>+37069138156</li>
+                            <li><b>City: </b>Vilnius, Lithuania</li>
+                        </ul>
+                    </div>
+                    <div class = "about_column">
+                        <ul>
+                            <li><b>Age: </b>20</li>
+                            <li><b>Degree: </b>Candidate: Bachelor</li>
+                            <li><b>Email:</b>a.makutenaite@gmail.com</li>
+                            <li><b>Freelance: </b>Available</li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis nostrum laudantium ipsam excepturi odit ratione  
+                    vel possimus quasi quidem, minima facere incidunt saepe quaerat, facilis, rem sit inventore cupiditate corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, hic ducimus, porro maiores repudiandae, odit distinctio excepturi laborum est explicabo ipsum sunt! Eligendi nulla consectetur commodi,  
+                    aliquam laudantium voluptate exercitationem? 
+                </p> 
+            </div>
+        </section>
+        
+        <section id = "resume_section">
+            <h2>Resume</h2> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, totam cumque! Delectus, quod. Nesciunt tempora aspernatur qui quidem cupiditate aliquid commodi quo quaerat harum iusto mollitia, dolore deserunt, rerum eaque!</p> 
+            
+            <h4>Summary</h4> 
+            <p>AISTE MAKUTENAITE</p> 
+            <p>Student, software developer, web developer ...</p> 
+            <ul> 
+                <li>Vilnius, Lithuania</li> 
+                <li>Phone: +37069138156</li> 
+                <li>Email: a.makutenaite@gmail.com</li> 
+        </ul> 
+        </section>
+
+        <section id = "education_section">
+            <h4>Education</h4> 
+            <p>HIGH SCHOOL</p> 
+            <p>2019-2023</p> 
+            <p><i>Vilniaus Antakalnio Gimnazija</i></p> 
+            <br> 
+            <p>BACHELOR IN INFOMATICS ENGINEERING</p> 
+            <p>2023-2027</p> 
+            <p><i>Vilniaus Gedimino Technologijos Universitetas</i></p> 
+            <br> 
+            <p>PROFESIONAL EXPERIENCE</p> 
+            <p>None yet</p>
+        </section> 
+        
+        <section id = "portfolio_section">
+            <h2>Portfolio</h2> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis nesciunt dicta fugit ratione atque iure enim, quaerat amet suscipit neque doloribus et sequi itaque quas soluta expedita laudantium laboriosam.</p> 
+            <img src="pictures/job1.jpg" height = "300"> 
+            <img src="pictures/job2.jpg" height = "300"> 
+            <img src="pictures/job3.jpg" height = "300"> 
+        </section>
+
+        <section id = "servicres_section">
+            <h2>Services</h2> 
+            <video height = "300" controls> 
+                <source src="media/cat_video.mp4" type="video/mp4"> 
+            </video> 
+            <iframe width="560" height="300" src="https://www.youtube.com/embed/ZHgyQGoeaB0?si=aXJy9Rj88kRtsL3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+            <audio controls> 
+                <source src="media/meow_audio.mp3" type="audio/mpeg"> 
+            </audio> 
+        </section>
+    </section> 
 </body> 
  
-</html> 
+</html>
