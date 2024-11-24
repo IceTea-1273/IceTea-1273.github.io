@@ -9,7 +9,14 @@ body {
     background-color: white;
     display: grid;
     place-items: center; 
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
 } 
+
+body.dark_theme{
+    background-color: rgb(6, 0, 43);
+    color: rgb(255, 255, 252);
+}
 
 h1{ 
     font-family: "Raleway", sans-serif; 
@@ -100,5 +107,24 @@ a:hover{
     flex-wrap: wrap;
     gap: clamp(10px, 2vw, 30px); /* Responsive gap */
     justify-content: center; /* Center the images horizontally */;
+}
+
+button{
+    background-color: beige;
+    border: none;
+    color: black;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ddd;
+    color: black;
+    cursor: pointer;
 }
 
