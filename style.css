@@ -7,7 +7,7 @@ body, html {
 
 body { 
     background-color: white;
-    display: grid;                 /* Enable grid layout */
+    display: grid;
     place-items: center; 
 } 
 
@@ -35,6 +35,15 @@ ul{
     font-size: 15px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
 #first_section{ 
     height:100vh; 
     width: 100%; 
@@ -51,8 +60,9 @@ ul{
 } 
 
 #container{
+    margin: 20px;;
     padding:20px;
-    max-width: 1400px;
+    max-width: 1300px;
     min-width: auto;
 }
 
@@ -77,4 +87,18 @@ ul{
     width: 50%;
 }
 
+#resume_contents{
+    display: flex;
+}
+
+#resume_left{
+    min-width: 50%
+}
+
+#portfolio_contents{
+    display: flex;
+    flex-wrap: wrap;
+    gap: clamp(10px, 2vw, 30px); /* Responsive gap */
+    justify-content: center; /* Center the images horizontally */;
+}
 
