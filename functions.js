@@ -22,3 +22,21 @@ goToTopButton.addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+
+const sidebar = document.getElementById('sidebar');
+const sidebarButton = document.getElementById('sidebar_button');
+
+sidebarButton.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+    sidebarButton.classList.toggle('active');
+    if (sidebarButton.classList.contains('active')) {
+        sidebarButton.innerHTML = '<i class="bx bx-x"></i>';
+    }
+    else {
+        sidebarButton.innerHTML = '<i class="bx bx-menu"></i>';
+    }
+});
+
+
+
+

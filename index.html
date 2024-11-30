@@ -7,12 +7,13 @@
 	<meta name="author" content="Aiste Makutenaite"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="stylesheet" href= "style.css"> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head> 
  
 <body> 
     <header class = "header">
         <div class = "inner_header">
-        <img src="pictures\logo.png" height = "39" class="logo" alt = "logo">
+        <img src="pictures/logo.png" height = "39" class="logo" alt = "logo">
             <button id = "theme_button" onclick = "changeTheme()">Change theme</button>
         </div>
     </header>
@@ -20,6 +21,48 @@
         <h1>Aistė Makutėnaitė</h1> 
         <p>I am a programmer</p> 
     </section>
+
+    <div class="sidebar" id = "sidebar">
+        <div class="user">
+            <img src="pictures/profile_picture.jpg" alt="profile_picture" class = "pfp_side">
+            <p>Aistė Makutėnaitė</p>
+        </div>
+        <div class="socials">
+            <button id = "socials_button"><a href="https://www.facebook.com/" target="_blank" id = "facebook"><i class='bx bxl-facebook-circle'></i></a></button>
+            <button id = "socials_button"><a href="https://www.instagram.com/" target="_blank" id = "instagram"><i class='bx bxl-instagram'></i></a></button>
+            <button id = "socials_button"><a href="https://www.linkedin.com/" target="_blank" id = "linkedin"><i class='bx bxl-linkedin'></i></a></button>
+            <button id = "socials_button"><a href="https://github.com/" target="_blank" id = "github"><i class='bx bxl-github'></i></a></button>
+            <button id = "socials_button"><a href="https://twitter.com/" target="_blank" id = "twitter"><i class='bx bxl-twitter'></i></a></button>
+        </div>
+        <ul>
+            <li>
+                <a href="#first_section">
+                    <i class = "bx bx-home" id = "socials_icon"></i>
+                    <span class = "nav-item">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#about_section">
+                    <i class = "bx bx-user" id = "socials_icon"></i>
+                    <span class = "nav-item">About</span>
+                </a>
+            </li>
+            <li>
+                <a href="#resume_section" >
+                    <i class = "bx bx-file"id = "socials_icon"></i>
+                    <span class = "nav-item">Resume</span>
+                </a>
+            </li>
+            <li>
+                <a href="#portfolio_section" >
+                    <i class = "bx bx-images" id = "socials_icon"></i>
+                    <span class = "nav-item">Portfolio</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <button id = "sidebar_button"><i class='bx bx-menu'></i></button>
+
     <section id = "container">
         <section id = "about_section">
             <div id = "about_header">
@@ -27,7 +70,7 @@
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, nostrum reprehenderit earum cupiditate molestiae atque repudiandae tempore tempora nesciunt qui eveniet ut corrupti explicabo voluptates natus perspiciatis minus voluptatum obcaecati.</p> 
             </div>
             <div class="clearfix">
-                <img src="pictures\profile_picture.jpg" width = "300" class="profile_picture" alt="profile_picture">
+                <img src="pictures/profile_picture.jpg" width = "300" class="profile_picture" alt="profile_picture">
                 <h4>HTML, CSS, Javascript developer</h4> 
                 <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ipsum, tenetur animi possimus quaerat dolorum adipisci repudiandae modi deleniti esse voluptates eveniet quis laudantium? Facilis aliquam rem vero expedita ratione.</i></p>  
                 <div class = "about_row">
@@ -100,8 +143,10 @@
 
     <button id ="go_to_top" >↑</button>
 
+
+
     <footer>
-        <p>&copy; Aiste Makutenaite All rights reserved</p>
+        <p>&copy; Aistė Makutėnaitė All rights reserved</p>
         <p>Contact at: a.makutenaite@gmail.com</p>
     </footer>  
 
@@ -109,5 +154,4 @@
 
 </body> 
 
- 
 </html>
