@@ -18,6 +18,11 @@ body.dark_theme{
     color: rgb(255, 255, 252);
 }
 
+body.dark_theme footer {
+    background-color:#023b6d;
+    border-top: 2px solid rgb(255, 255, 252);
+}
+
 h1{ 
     font-family: "Raleway", sans-serif; 
     font-size: 50px; 
@@ -116,6 +121,8 @@ a:hover{
 
 #theme_button{
     background-color: #149ddd;
+    height: 40px;
+    width: 125px;
     border: none;
     color: white;
     padding: 10px 16px;
@@ -207,6 +214,12 @@ a:hover{
 .inner_header{
     display: flex;
     justify-content: space-between; /* Spread out items if there are multiple */
+}
+
+footer{
+    background-color: #f4fafd;
+    width: 100%;
+    text-align: center;
 }
 
 
