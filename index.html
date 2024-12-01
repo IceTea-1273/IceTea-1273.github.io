@@ -17,9 +17,9 @@
             <button id = "theme_button" onclick = "changeTheme()">Change theme</button>
         </div>
     </header>
-    <section id = "first_section">
+    <section id = "first_section" classs = "section_title">
         <h1>Aistė Makutėnaitė</h1> 
-        <p>I am a programmer</p> 
+        <p>I am a programmer<p> 
     </section>
 
     <div class="sidebar" id = "sidebar">
@@ -64,7 +64,7 @@
     <button id = "sidebar_button"><i class='bx bx-menu'></i></button>
 
     <section id = "container">
-        <section id = "about_section">
+        <section id = "about_section" class = "section_title">
             <div id = "about_header">
                 <h2>About</h2> 
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, nostrum reprehenderit earum cupiditate molestiae atque repudiandae tempore tempora nesciunt qui eveniet ut corrupti explicabo voluptates natus perspiciatis minus voluptatum obcaecati.</p> 
@@ -76,18 +76,18 @@
                 <div class = "about_row">
                     <div class = "about_column">
                         <ul>
-                            <li><b>Birthday: </b>May 30 2004</li>
-                            <li><b>Website: </b><a href = "https://vilniustech.lt/" target="_blank">www.exapmle.com </a></li>
-                            <li><b>Phone: </b>+37069138156</li>
-                            <li><b>City: </b>Vilnius, Lithuania</li>
+                            <li><i class='bx bx-chevron-right' id = "list_icon"></i><b>Birthday: </b>May 30 2004</li>
+                            <li><i class='bx bx-chevron-right' id = "list_icon"></i><b>Website: </b><a href = "https://vilniustech.lt/" target="_blank">www.exapmle.com </a></li>
+                            <li><i class='bx bx-chevron-right' id = "list_icon"></i><b>Phone: </b>+37069138156</li>
+                            <li><i class='bx bx-chevron-right' id = "list_icon"></i><b>City: </b>Vilnius, Lithuania</li>
                         </ul>
                     </div>
                     <div class = "about_column">
                         <ul>
-                            <li><b>Age: </b>20</li>
-                            <li><b>Degree: </b>Candidate: Bachelor</li>
-                            <li><b>Email:</b>a.makutenaite@gmail.com</li>
-                            <li><b>Freelance: </b>Available</li>
+                            <li><i class='bx bx-chevron-right' id = "list_icon"></i><b>Age: </b>20</li>
+                            <li><i class='bx bx-chevron-right' id = "list_icon"></i><b>Degree: </b>Candidate: Bachelor</li>
+                            <li><i class='bx bx-chevron-right' id = "list_icon"></i><b>Email:</b>a.makutenaite@gmail.com</li>
+                            <li><i class='bx bx-chevron-right' id = "list_icon"></i><b>Freelance: </b>Available</li>
                         </ul>
                     </div>
                 </div>
@@ -98,13 +98,14 @@
             </div>
         </section>
         
-        <section id = "resume_section">
+        <section id = "resume_section" class = "section_title">
             <h2>Resume</h2> 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, totam cumque! Delectus, quod. Nesciunt tempora aspernatur qui quidem cupiditate aliquid commodi quo quaerat harum iusto mollitia, dolore deserunt, rerum eaque!</p> 
             
             <div id ="resume_contents">
                 <div id = "resume_left">
                     <h4>Summary</h4> 
+                <div id = "resume_item">
                     <p>AISTE MAKUTENAITE</p> 
                     <p>Student, software developer, web developer ...</p> 
                     <ul> 
@@ -112,24 +113,29 @@
                         <li>Phone: +37069138156</li> 
                         <li>Email: a.makutenaite@gmail.com</li> 
                     </ul> 
+                </div>
                     <h4>Education</h4> 
-                    <p>HIGH SCHOOL</p> 
+                <div id = "resume_item">   
+                     <p>HIGH SCHOOL</p> 
                     <p>2019-2023</p> 
                     <p><i>Vilniaus Antakalnio Gimnazija</i></p> 
-                    <br> 
+                </div>
+                <div id = "resume_item">
                     <p>BACHELOR IN INFOMATICS ENGINEERING</p> 
                     <p>2023-2027</p> 
                     <p><i>Vilniaus Gedimino Technologijos Universitetas</i></p> 
-                    <br>
+                </div>
                 </div>
                 <div id = "resume_right">
                     <h4>Profesional experience</h4> 
+                    <div id = "resume_item">
                     <p>None yet</p>
+                    </div>
                 </div>      
         </div>
         </section> 
         
-        <section id = "portfolio_section">
+        <section id = "portfolio_section" class = "section_title">
             <h2>Portfolio</h2> 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis nesciunt dicta fugit ratione atque iure enim, quaerat amet suscipit neque doloribus et sequi itaque quas soluta expedita laudantium laboriosam.</p> 
             <div id = "portfolio_contents">
