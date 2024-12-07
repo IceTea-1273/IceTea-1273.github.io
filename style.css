@@ -191,10 +191,6 @@ a:hover{
     }
 } 
 
-
-
-
-
 #resume_left{
     min-width: 50%
 }
@@ -455,9 +451,16 @@ footer{
     color: #149ddd
 }
 
+#maths_contents{ 
+    display: flex; 
+    gap: 80px; 
+} 
 
-
-
+#clock{
+    font-family: "Raleway", sans-serif; 
+    font-size: 16px; 
+    color: rgb(170, 170, 170);
+}
 
 
 
