@@ -39,6 +39,11 @@ body.dark_theme #resume_item::before{
     background: rgb(6, 0, 43);
 }
 
+body.dark_theme #question_section input{
+    background-color: rgb(6, 0, 43);
+    color: rgb(255, 255, 252);
+}
+
 h1{ 
     font-family: "Raleway", sans-serif; 
     font-size: 50px; 
@@ -147,8 +152,6 @@ a:hover{
     margin-right: 8px;
     line-height: 1;
     font-size: 16px;
-
-
 }
 
 .clearfix { 
@@ -462,9 +465,78 @@ footer{
     color: rgb(170, 170, 170);
 }
 
+#question_section p{
+    font-size: 15px;
+}
+input{
+    width: 380px;
+    padding: 8px 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
 
+input:focus{
+    outline: none;
+    border-color: #149ddd;
+}
 
+#submit-btn,
+#clear-btn{
+    background-color: #149ddd;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 70px;
+}
 
+#submit-btn:hover,
+#clear-btn:hover{
+    background-color: #023b6d;
+}
 
+select{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+select:focus{
+    outline: none;
+    border-color: #149ddd;
+}
+
+form:not(#submit-id){
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#personal-info{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+#submit_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.surveyResult{
+    display: flex;
+    align-items: center;
+}
+.survey-results #list_icon{
+    color: #149ddd;
+    margin-right: 8px;
+    line-height: 1;
+    font-size: 16px;
+    display: inline-block;
+    width: 16px;
+}
  
 
